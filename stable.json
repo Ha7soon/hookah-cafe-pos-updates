@@ -1,13 +1,19 @@
 ﻿{
-  "version": "3.0.1",
+  "version": "3.0.2",
   "channel": "stable",
   "publishedAt": "2026-06-16T00:00:00.000Z",
   "notes": [
-    "Current stable version",
-    "Empty draft orders are hidden from counters and lists",
-    "iPad LAN reconnect stability improved"
+    "Owner-only GitHub remote updater added",
+    "Update checks use outbound HTTPS only",
+    "Installer download is verified with SHA256",
+    "Pre-update database backup is created before install"
   ],
-  "windows": null,
+  "windows": {
+    "url": "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.2/Hookah-Cafe-POS-Setup-3.0.2.exe",
+    "sha256": "fdf1e404951f43a55e505e028a5e509a82bcc1a806667f20cf27f86b469c0337",
+    "sizeBytes": 85129827
+  },
+  "minimumVersion": "3.0.1",
   "requiresClosedShift": true,
   "requiresBackup": true
 }
