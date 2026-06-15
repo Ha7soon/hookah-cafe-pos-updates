@@ -1,0 +1,13 @@
+﻿{
+  "version": "3.0.1",
+  "channel": "stable",
+  "publishedAt": "2026-06-16T00:00:00.000Z",
+  "notes": [
+    "Current stable version",
+    "Empty draft orders are hidden from counters and lists",
+    "iPad LAN reconnect stability improved"
+  ],
+  "windows": null,
+  "requiresClosedShift": true,
+  "requiresBackup": true
+}
