@@ -1,17 +1,19 @@
 {
-  "version": "3.0.3",
-  "channel": "stable",
-  "publishedAt": "2026-06-16T00:00:00.000Z",
-  "notes": [
-    "Updater smoke test release",
-    "Adds visible confirmation text in the Updates panel"
-  ],
-  "windows": {
-    "url": "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.3/Hookah-Cafe-POS-Setup-3.0.3.exe",
-    "sha256": "df395cc4b2f0a9951927535ea915c454ba577afb670e2e184567abc41ab91949",
-    "sizeBytes": 85129188
-  },
-  "minimumVersion": "3.0.2",
-  "requiresClosedShift": true,
-  "requiresBackup": true
+    "version":  "3.0.4",
+    "channel":  "stable",
+    "publishedAt":  "2026-06-16T00:00:00.000Z",
+    "notes":  [
+                  "Fix hidden bills blocking shift close",
+                  "Empty draft shells no longer block shift close",
+                  "Owner can now check shift blockers and open hidden bills",
+                  "Updater now guides owner to close shift blockers"
+              ],
+    "windows":  {
+                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.4/Hookah-Cafe-POS-Setup-3.0.4.exe",
+                    "sha256":  "21910850c67af92215e303c66f554898cdf4e53006d87fc370ab78752666f4d2",
+                    "sizeBytes":  85136127
+                },
+    "minimumVersion":  "3.0.2",
+    "requiresClosedShift":  false,
+    "requiresBackup":  true
 }
