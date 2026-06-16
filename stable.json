@@ -3,10 +3,10 @@
     "channel":  "stable",
     "publishedAt":  "2026-06-16T00:00:00.000Z",
     "notes":  [
-                  "Fix hidden bills blocking shift close",
-                  "Empty draft shells no longer block shift close",
-                  "Owner can now check shift blockers and open hidden bills",
-                  "Updater now guides owner to close shift blockers"
+                  "Emergency shift-close blocker fix",
+                  "This update is temporarily allowed while a shift is open",
+                  "Fixes hidden bills blocking shift close",
+                  "Empty draft shells no longer block shift close"
               ],
     "windows":  {
                     "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.4/Hookah-Cafe-POS-Setup-3.0.4.exe",
