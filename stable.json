@@ -1,19 +1,19 @@
 {
-    "version":  "3.0.4",
+    "version":  "3.0.6",
     "channel":  "stable",
-    "publishedAt":  "2026-06-16T00:00:00.000Z",
+    "publishedAt":  "2026-06-28T00:00:00.000Z",
     "notes":  [
-                  "Emergency shift-close blocker fix",
-                  "This update is temporarily allowed while a shift is open",
-                  "Fixes hidden bills blocking shift close",
-                  "Empty draft shells no longer block shift close"
+                  "Fix false printer success messages",
+                  "Prep ticket and receipt now use real print result",
+                  "Payment remains completed if receipt print fails",
+                  "Added printer diagnostics and test print status"
               ],
     "windows":  {
-                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.4/Hookah-Cafe-POS-Setup-3.0.4.exe",
-                    "sha256":  "21910850c67af92215e303c66f554898cdf4e53006d87fc370ab78752666f4d2",
-                    "sizeBytes":  85136127
+                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.6/Hookah-Cafe-POS-Setup-3.0.6.exe",
+                    "sha256":  "1cc726cae49bf3599bb70436c6e4baa4dd8dff30a2e56f961402df889373dbb5",
+                    "sizeBytes":  85142589
                 },
-    "minimumVersion":  "3.0.2",
-    "requiresClosedShift":  false,
+    "minimumVersion":  "3.0.5",
+    "requiresClosedShift":  true,
     "requiresBackup":  true
 }
