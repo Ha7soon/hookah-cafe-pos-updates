@@ -1,7 +1,7 @@
 {
-    "version":  "3.0.9",
+    "version":  "3.0.10",
     "channel":  "stable",
-    "publishedAt":  "2026-07-25T20:16:36.203Z",
+    "publishedAt":  "2026-07-25T20:43:57.033Z",
     "notes":  [
                   "Redesigned opening and closing around one Cash Drawer Session",
                   "Open and partially paid orders carry forward without blocking drawer close",
@@ -11,9 +11,9 @@
                   "Added Maintenance Pause and stronger payment, print and database-write protection"
               ],
     "windows":  {
-                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.9/Hookah-Cafe-POS-Setup-3.0.9.exe",
-                    "sha256":  "7ed610f7635928c8aa42a1efc21b79c72d22cd6233dc3924cc835ecc121f939e",
-                    "sizeBytes":  85183667
+                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.10/Hookah-Cafe-POS-Setup-3.0.10.exe",
+                    "sha256":  "bf43b8ed33404c5a13a34a227fbf1588b4c2047827cd3087890d2555a2a2c88c",
+                    "sizeBytes":  85184510
                 },
     "minimumVersion":  "3.0.5",
     "requiresClosedShift":  false,
