@@ -1,19 +1,21 @@
 {
-    "version":  "3.0.6",
+    "version":  "3.0.9",
     "channel":  "stable",
-    "publishedAt":  "2026-06-28T00:00:00.000Z",
+    "publishedAt":  "2026-07-25T20:16:36.203Z",
     "notes":  [
-                  "Fix false printer success messages",
-                  "Prep ticket and receipt now use real print result",
-                  "Payment remains completed if receipt print fails",
-                  "Added printer diagnostics and test print status"
+                  "Redesigned opening and closing around one Cash Drawer Session",
+                  "Open and partially paid orders carry forward without blocking drawer close",
+                  "Cash Drawer recovery guides staff when the drawer is closed",
+                  "iPad cannot open the physical Cash Drawer or accept cash",
+                  "Updates preserve an open Cash Drawer Session and open orders",
+                  "Added Maintenance Pause and stronger payment, print and database-write protection"
               ],
     "windows":  {
-                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.6/Hookah-Cafe-POS-Setup-3.0.6.exe",
-                    "sha256":  "1cc726cae49bf3599bb70436c6e4baa4dd8dff30a2e56f961402df889373dbb5",
-                    "sizeBytes":  85142589
+                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.9/Hookah-Cafe-POS-Setup-3.0.9.exe",
+                    "sha256":  "7ed610f7635928c8aa42a1efc21b79c72d22cd6233dc3924cc835ecc121f939e",
+                    "sizeBytes":  85183667
                 },
     "minimumVersion":  "3.0.5",
-    "requiresClosedShift":  true,
+    "requiresClosedShift":  false,
     "requiresBackup":  true
 }
