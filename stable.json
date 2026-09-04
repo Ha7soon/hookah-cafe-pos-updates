@@ -1,19 +1,19 @@
 {
-    "version":  "3.0.10",
+    "version":  "3.0.11",
     "channel":  "stable",
-    "publishedAt":  "2026-07-25T20:43:57.033Z",
+    "publishedAt":  "2026-09-04T23:45:00.000Z",
     "notes":  [
-                  "Redesigned opening and closing around one Cash Drawer Session",
-                  "Open and partially paid orders carry forward without blocking drawer close",
-                  "Cash Drawer recovery guides staff when the drawer is closed",
-                  "iPad cannot open the physical Cash Drawer or accept cash",
-                  "Updates preserve an open Cash Drawer Session and open orders",
-                  "Added Maintenance Pause and stronger payment, print and database-write protection"
+                  "Detect an offline Windows printer instead of reporting a failed print as successful",
+                  "Driver-reported printer status no longer blocks a working printer",
+                  "Print the receipt automatically once a payment settles the bill",
+                  "A guest paying their own tab gets their own receipt, not the whole table",
+                  "Partial payments and credit do not print a paid receipt",
+                  "Payment stays completed even if the printer fails, and manual reprint still works"
               ],
     "windows":  {
-                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.10/Hookah-Cafe-POS-Setup-3.0.10.exe",
-                    "sha256":  "bf43b8ed33404c5a13a34a227fbf1588b4c2047827cd3087890d2555a2a2c88c",
-                    "sizeBytes":  85184510
+                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.11/Hookah-Cafe-POS-Setup-3.0.11.exe",
+                    "sha256":  "3db3eda306f4d8ccd1ed095e453e45ebf6c5f12f59d89ef190c44da0311e0b72",
+                    "sizeBytes":  85189237
                 },
     "minimumVersion":  "3.0.5",
     "requiresClosedShift":  false,
