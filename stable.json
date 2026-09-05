@@ -1,19 +1,19 @@
 {
-    "version":  "3.0.11",
+    "version":  "3.0.12",
     "channel":  "stable",
-    "publishedAt":  "2026-09-04T23:45:00.000Z",
+    "publishedAt":  "2026-09-05T18:45:00.000Z",
     "notes":  [
-                  "Detect an offline Windows printer instead of reporting a failed print as successful",
-                  "Driver-reported printer status no longer blocks a working printer",
-                  "Print the receipt automatically once a payment settles the bill",
-                  "A guest paying their own tab gets their own receipt, not the whole table",
-                  "Partial payments and credit do not print a paid receipt",
-                  "Payment stays completed even if the printer fails, and manual reprint still works"
+                  "Choose which menu categories print preparation tickets",
+                  "Hookah items can print while drinks and food stay off the prep printer",
+                  "Per-item Always Print / Never Print overrides",
+                  "Orders with no prep items no longer produce blank tickets",
+                  "Preparation reprints use the same filtering rules",
+                  "Customer receipts and paid-receipt printing remain unchanged"
               ],
     "windows":  {
-                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.11/Hookah-Cafe-POS-Setup-3.0.11.exe",
-                    "sha256":  "3db3eda306f4d8ccd1ed095e453e45ebf6c5f12f59d89ef190c44da0311e0b72",
-                    "sizeBytes":  85189237
+                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.12/Hookah-Cafe-POS-Setup-3.0.12.exe",
+                    "sha256":  "3a51296895dd37f3ed9ef205673cc63f759d23346dc4c16b99534b62814f519d",
+                    "sizeBytes":  85192707
                 },
     "minimumVersion":  "3.0.5",
     "requiresClosedShift":  false,
