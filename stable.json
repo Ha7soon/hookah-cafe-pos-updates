@@ -1,21 +1,19 @@
 {
-    "version":  "3.0.12",
-    "channel":  "stable",
-    "publishedAt":  "2026-09-05T18:45:00.000Z",
-    "notes":  [
-                  "Choose which menu categories print preparation tickets",
-                  "Hookah items can print while drinks and food stay off the prep printer",
-                  "Per-item Always Print / Never Print overrides",
-                  "Orders with no prep items no longer produce blank tickets",
-                  "Preparation reprints use the same filtering rules",
-                  "Customer receipts and paid-receipt printing remain unchanged"
-              ],
-    "windows":  {
-                    "url":  "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.12/Hookah-Cafe-POS-Setup-3.0.12.exe",
-                    "sha256":  "3a51296895dd37f3ed9ef205673cc63f759d23346dc4c16b99534b62814f519d",
-                    "sizeBytes":  85192707
-                },
-    "minimumVersion":  "3.0.5",
-    "requiresClosedShift":  false,
-    "requiresBackup":  true
+  "version": "3.0.13",
+  "channel": "stable",
+  "publishedAt": "2026-09-25T23:37:16Z",
+  "notes": [
+    "Orders screen now loads significantly faster",
+    "Large order histories are loaded in pages instead of all at once",
+    "Improved database query performance for orders",
+    "Fixed freezing and request timeouts when opening large order lists"
+  ],
+  "windows": {
+    "url": "https://github.com/Ha7soon/hookah-cafe-pos-updates/releases/download/v3.0.13/Hookah-Cafe-POS-Setup-3.0.13.exe",
+    "sha256": "2ecf582a34987252d786f6540515eecb6bbd83e3488e62798affa6fc52112923",
+    "sizeBytes": 85195602
+  },
+  "minimumVersion": "3.0.5",
+  "requiresClosedShift": false,
+  "requiresBackup": true
 }
